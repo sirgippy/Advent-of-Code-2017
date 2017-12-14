@@ -6,7 +6,6 @@ current = current{1}';
 fclose(file);
 
 steps = 0;
-history = [];
 n = length(current);
 
 history = zeros(100,16);
